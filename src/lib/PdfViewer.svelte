@@ -26,7 +26,8 @@
   export let downloadFileName = "";
   export let showTopButton = true; // boolean
 
-  pdfjs.GlobalWorkerOptions.workerSrc = "pdfjs-dist/build/pdf.worker.mjs";
+  pdfjs.GlobalWorkerOptions.workerSrc =
+    "//mozilla.github.io/pdf.js/build/pdf.worker.mjs";
 
   let canvas;
   let page_num = 0;

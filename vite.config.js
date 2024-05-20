@@ -4,16 +4,16 @@ import { sveltekit } from "@sveltejs/kit/vite";
 const config = {
   plugins: [sveltekit()],
   build: {
-    target: "es2022"
+    target: "esnext",
   },
   esbuild: {
-    target: "es2022"
+    target: "esnext",
   },
-  optimizeDeps:{
+  optimizeDeps: {
     esbuildOptions: {
-      target: "es2022",
-    }
-  }
+      target: "esnext",
+    },
+  },
 };
 
 export default config;

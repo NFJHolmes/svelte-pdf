@@ -1,7 +1,7 @@
 <script>
   // @ts-nocheck
   import * as pdfjs from "pdfjs-dist";
-  import Worker from "pdfjs-dist/build/pdf.worker?worker";
+  import * as pdfWorker from "pdfjs-dist/build/pdf.worker.mjs";
   import { onDestroy, tick } from "svelte";
   import { calcRT, getPageText, onPrint, savePDF } from "./utils/Helper.svelte";
   import Tooltip from "./utils/Tooltip.svelte";
@@ -26,7 +26,7 @@
   export let downloadFileName = "";
   // export let showTopButton = true; // boolean
 
-  pdfjs.GlobalWorkerOptions.workerSrc = Worker;
+  pdfjs.GlobalWorkerOptions.workerSrc = pdfWorker;
 
   let canvas;
   let page_num = 0;

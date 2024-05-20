@@ -2,7 +2,6 @@
   // @ts-nocheck
 
   import * as pdfjs from "pdfjs-dist";
-  import * as pdfWorker from "pdfjs-dist/build/pdf.worker.mjs";
   import { onDestroy, tick } from "svelte";
   import { calcRT, getPageText, onPrint, savePDF } from "./utils/Helper.svelte";
   import Tooltip from "./utils/Tooltip.svelte";

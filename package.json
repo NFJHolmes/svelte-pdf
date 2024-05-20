@@ -27,7 +27,7 @@
       "svelte": "./dist/index.js"
     }
   },
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "vite build",
     "check": "svelte-check --tsconfig ./jsconfig.json",

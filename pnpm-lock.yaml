@@ -6,7 +6,7 @@ specifiers:
   eslint: ^8.57.0
   eslint-config-prettier: ^9.1.0
   eslint-plugin-svelte: ^2.35.1
-  pdfjs-dist: ^4.0.379
+  pdfjs-dist: ^4.2.67
   prettier: ^3.2.5
   prettier-plugin-svelte: ^3.2.2
   svelte: ^4.2.12
@@ -16,7 +16,7 @@ specifiers:
   vite: ^5.1.4
 
 dependencies:
-  pdfjs-dist: 4.0.379
+  pdfjs-dist: 4.2.67
 
 devDependencies:
   '@sveltejs/adapter-auto': 3.1.1_@sveltejs+kit@2.5.2

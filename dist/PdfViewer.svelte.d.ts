@@ -11,7 +11,6 @@ export default class PdfViewer extends SvelteComponentTyped<{
     showBorder?: boolean | undefined;
     totalPage?: number | undefined;
     downloadFileName?: string | undefined;
-    showTopButton?: boolean | undefined;
 }, {
     keydown: KeyboardEvent;
 } & {
@@ -33,7 +32,6 @@ declare const __propDef: {
         showBorder?: boolean | undefined;
         totalPage?: number | undefined;
         downloadFileName?: string | undefined;
-        showTopButton?: boolean | undefined;
     };
     events: {
         keydown: KeyboardEvent;
